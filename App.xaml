@@ -1,0 +1,24 @@
+﻿<Application x:Class="BaiThucHanh11_12.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BaiThucHanh11_12"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="dataGridColumnHeaderStyle" TargetType="DataGridColumnHeader">
+
+            <Setter Property="FontWeight" Value="Bold" />
+
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+
+        </Style>
+
+        <Style x:Key="dataGridCellStyle" TargetType="DataGridCell">
+
+            <Setter Property="Foreground" Value="Red" />
+
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+
+        </Style>
+    </Application.Resources>
+</Application>
